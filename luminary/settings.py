@@ -26,7 +26,7 @@ SECRET_KEY = str(os.getenv('KEPO_MEMANG_KAU'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['luminary-project.herokuapp.com']
+ALLOWED_HOSTS = ['luminary-project.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
