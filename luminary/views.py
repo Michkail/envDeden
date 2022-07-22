@@ -16,4 +16,4 @@ def gallery(request):
     return render(request, 'gallery.html')
 
 def porfolio(request):
-    return render(request, 'porfolio.html')
+    return render(request, 'portfolio.html')
